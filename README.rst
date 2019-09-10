@@ -1,4 +1,3 @@
-# odoo-vscode-debug
 ```
 {
     // Use IntelliSense to learn about possible attributes.
