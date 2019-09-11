@@ -1,8 +1,8 @@
-FROM odoo:12.0
+FROM odoo:10
 
 USER root
-RUN pip3 install --upgrade pip
-RUN pip3 install ptvsd
+RUN pip install --upgrade pip
+RUN pip install ptvsd
 
 RUN { \
     echo "#!/usr/bin/env python3"; \
