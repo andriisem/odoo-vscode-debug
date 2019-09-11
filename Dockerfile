@@ -5,7 +5,7 @@ RUN pip install --upgrade pip
 RUN pip install ptvsd
 
 RUN { \
-    echo "#!/usr/bin/env python3"; \
+    echo "#!/usr/bin/env python"; \
     echo ""; \
     echo "# set server timezone in UTC before time module imported"; \
     echo "__import__('os').environ['TZ'] = 'UTC'"; \
